@@ -22,10 +22,16 @@ This project demonstrates how to run a **Django application** with a **MySQL dat
 
 ```
 .
-├── app/                     # Django application source code
-├── Dockerfile               # Django app Dockerfile
-├── entrypoint.sh             # Runs migrations before starting server
-└── README.md
+my-notes-app/
+├── api/ # Django REST API
+├── mynotes/ # React frontend
+├── notesapp/ # Django project settings
+├── nginx/ # Nginx configuration
+├── database/ # Database container setup
+├── staticfiles/ # Static assets for Django
+├── Dockerfile # Backend Dockerfile
+├── requirements.txt
+└── Jenkinsfile # CI/CD pipeline
 ```
 
 ---
